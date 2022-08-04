@@ -1,0 +1,74 @@
+*{
+    margin: 0px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.first-row {
+    color: #F9FAF8;
+    background-color: #1F2937;
+    display: flex;
+    flex-direction: column;
+}
+
+.header, .hero, .header-link, .hero-text{
+    display: flex;
+}
+
+.header{
+    padding: 18px 180px;
+    justify-content: space-between;
+}
+
+.header-logo{
+    font-size: 24px;
+    font-weight: bold;
+    padding-right: 180px;
+}
+
+.header-link a{
+    padding-left: 16px;
+    font-size: 18px;
+    text-decoration: none;
+    color: #E5E7EB;
+}
+
+.hero{
+    padding: 64px 180px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hero-text{
+    flex-direction: column;
+    align-items: flex-start;
+    width: 400px;
+    height: 240px;
+    justify-content: space-between;
+    flex-shrink: 0;
+}
+
+.hero-text .hero-title{
+    font-size: 48px;
+}
+
+.hero-text .hero-second-text{
+    color: #E5E7EB;
+    font-size: 18px;
+    padding-bottom: 18px;
+}
+
+.hero-text .hero-button{
+    background-color: #3882F6;
+    color: #F9FAF8;
+    font-weight: bold;
+    font-size: 15px;
+    border: none;
+    border-radius: 15px;
+    width: 100px;
+    height: 30px;
+}
+
+.pets-image img{
+    width: auto;
+    height: 240px;
+}
