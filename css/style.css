@@ -21,7 +21,7 @@
 
 .header-logo{
     font-size: 24px;
-    font-weight: bold;
+    font-weight: 800;
     padding-right: 180px;
 }
 
@@ -71,4 +71,49 @@
 .pets-image img{
     width: auto;
     height: 240px;
+}
+
+.info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 82px;
+}
+
+.info-title{
+    color: #1F2937;
+    font-size: 32px;
+    font-weight: 800;
+    padding: 32px;
+}
+
+.info-content{
+    display: flex;
+    justify-content: space-between;
+    flex-grow: 0;
+}
+
+.info-blocks{
+    padding: 18px 27px;
+}
+
+.info-blocks{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.info-blocks p{
+    padding-top: 18px;
+    color: #7f7f7f;
+    text-align: center;
+    width: 125px;
+}
+
+.info-blocks img{
+    width: 125px;
+    height: 125px;
+    border:  5px solid #3882F6;
+    border-radius: 20px;
 }
